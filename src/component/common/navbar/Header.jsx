@@ -45,7 +45,7 @@ const Header = (props) => {
                     <Navbar.Brand href="#home" className="navbar-brand">
                         <img
                             alt="Brainiac Logo"
-                            // src={Logo}
+                            src={Logo}
                             width="50"
                             height="50"
                             className="d-inline-block align-top mr-2"

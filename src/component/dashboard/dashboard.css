@@ -1,0 +1,140 @@
+.dashboard {
+    background-color: #141c2e;
+    min-height: 600px;
+    padding-top: 50px;
+}
+
+.dashboard .yield-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    /*padding-top: 5rem;*/
+}
+
+.dashboard .yield-information h1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.dashboard .yield-information .yield-information-button-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.dashboard .yield-information .yield-information-button-group button {
+    width: 31%;
+    margin: auto 5px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dashboard .yield-information .yield-information-button-group button:first-child {
+    background-color: gray;
+    border: 0;
+}
+
+.dashboard .yield-information video {
+    margin: 2rem auto;
+}
+
+.dashboard .dashboard-item {
+    border: 1px solid #fff;
+    max-height: 100px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.dashboard-content-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashboard-content-wrapper-full {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.dashboard-content-wrapper-break {
+    width: 29%;
+    min-height: 80px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dashboard-content-wrapper-break h4 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.dashboard-content-wrapper-break p {
+    color: #fff;
+    margin: 0;
+    font-weight: bold;
+}
+
+.deposit-area {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    width: 100%;
+    background-color: rgb(12, 18, 30);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.deposit-area p {
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.deposit-area .deposit-detail {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: baseline;
+}
+
+.deposit-area .deposit-detail h1 {
+    padding-left: 25px;
+    color: #fff;
+    font-size: 25px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.deposit-area .deposit-detail p {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.unclaimed-bonus {
+    min-height: 100px;
+    width: 100%;
+}

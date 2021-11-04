@@ -1,0 +1,33 @@
+header {
+    padding: 10px 40px;
+    min-height: 100px;
+    background-color: #141c2e;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #fff !important;
+}
+
+.brainaic-nav {
+    color: #fff;
+    margin: auto 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.brainaic-nav:hover {
+    text-decoration: none;
+}
+
+.connect-btn {
+    color: #1c2e47;
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+
+.connect-btn:hover {
+    color: rgb(83, 153, 255);
+    transform: scale(1.3);
+}

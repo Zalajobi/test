@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {Button, Container, Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import './Navbar.css'
-// import Logo from '../../../static/images/BrainiacSolo-11.png';
+import Logo from '../../../static/images/BrainiacSolo-11.png';
 
 import Web3 from 'web3';
 

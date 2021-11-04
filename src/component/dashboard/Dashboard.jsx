@@ -61,7 +61,7 @@ const Dashboard = (props) => {
                         <Col lg="6" className="px-lg-4">
                             <div className="yield-information">
                                 <h1>Want Yield? Get BRAIN</h1>
-                                <p>The World's first self-feeding high APR yield farm.</p>
+                                <p className="text-white">The World's first self-feeding high APR yield farm.</p>
 
                                 <div className="yield-information-button-group">
                                     <Button>Read More</Button>

@@ -1,13 +1,15 @@
 import React from "react";
-import Header from "../component/common/navbar/Header";
-import Dashboard from "../component/dashboard/Dashboard";
+// import Header from "../component/common/navbar/Header";
+// import Dashboard from "../component/dashboard/Dashboard";
 
 const Home = (props) => {
     return (
         <React.Fragment>
-            <Header/>
+            {/*<Header/>*/}
+            <h1>HELLO ZHIKRULLAH</h1>
+            {/*<Dashboard/>*/}
 
-            <Dashboard/>
+
         </React.Fragment>
     )
 }

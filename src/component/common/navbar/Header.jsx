@@ -11,6 +11,7 @@ const Header = (props) => {
     const [account, setAccount] = useState('');
     const [connectButton, setConnectButton] = useState('Connect Wallet');
 
+
     async function connectMetamask() {
         // Modern Browsers like Chrome and Brave
         if (window.ethereum) {

@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {Button, Container, Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import './Navbar.css'
-import Logo from '../../../static/images/BrainiacLogo-1.png';
+import Logo from '../../../static/images/BrainiacSolo-11.png';
 
 import Web3 from 'web3';
 
@@ -51,7 +51,7 @@ const Header = (props) => {
                             height="50"
                             className="d-inline-block align-top mr-2"
                         />{' '}
-                        Brainaic
+                        Brainiac
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
